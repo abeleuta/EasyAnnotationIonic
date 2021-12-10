@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "outDir": "./dist/out-tsc",
+    "declarationMap": true,
+    "target": "es2015",
+    "declaration": true,
+    "inlineSources": true,
+    "moduleResolution": "node",
+    "types": [],
+    "module": "es2020",
+    "paths": {
+        "ionic-easy-annotation": ["dist/ionic-easy-annotation"]
+    },
+    "lib": ["es2018", "dom"]
+  },
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "enableResourceInlining": true
+  },
+  "exclude": [
+    "lib/src/test.ts", "**/*.spec.ts"]
+}

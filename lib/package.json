@@ -1,0 +1,28 @@
+{
+  "name": "ionic-easy-annotation",
+  "version": "2.0.1",
+  "description": "Ionic plugin for EasyAnnotation library.",
+  "peerDependencies": {
+    "@angular/common": "~12.2.13",
+    "@angular/core": "~12.2.13",
+    "@angular/platform-browser": "~12.2.13",
+    "rxjs": "^6.6.3",
+    "easyannotation": "^2.0.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "angularjs",
+    "angular",
+    "javascript",
+    "easyannotation",
+    "annotate"
+  ],
+  "author": "Andrei Beleuta",
+  "license": "MIT",
+  "homepage": "http://easyannotation.com"
+}

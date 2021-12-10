@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist/lib",
+    "declarationMap": true,
+    "target": "es2015",
+    "declaration": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "types": [],
+    "lib": ["dom", "es2018"],
+  },
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "enableResourceInlining": true
+  },
+  "exclude": [
+    "lib/src/test.ts", "**/*.spec.ts"]
+}
